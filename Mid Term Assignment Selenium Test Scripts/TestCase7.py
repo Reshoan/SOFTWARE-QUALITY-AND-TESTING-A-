@@ -32,7 +32,7 @@ driver.find_element(By.ID, "accident_date_time").send_keys("2025-08-17T14:30")
 driver.find_element(By.ID, "location").send_keys("Dhaka, Bangladesh")
 driver.find_element(By.ID, "vehicle_number").send_keys("DHAKA-METRO-12345")
 driver.find_element(By.ID, "description").send_keys("Minor collision, no injuries.")
-driver.find_element(By.ID, "photos").send_keys(os.path.abspath(r"C:\Users\resho\Desktop\SOFTWARE-QUALITY-AND-TESTING-A-\Mid Term Assignment Selenium Test Scripts\TestFiles\accident1.jpg"))
+driver.find_element(By.ID, "photos").send_keys(os.path.abspath(r"C:\Users\TECHNO\Desktop\SOFTWARE-QUALITY-AND-TESTING-A-\Mid Term Assignment Selenium Test Scripts\TestFiles\accident1.jpg"))
 driver.find_element(By.ID, "contact").send_keys("0171234567")
 
 driver.save_screenshot("screenshots/7_report_accident_filled.png")

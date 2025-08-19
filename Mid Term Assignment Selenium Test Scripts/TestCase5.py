@@ -39,8 +39,8 @@ driver.find_element(By.ID, "start_point").send_keys("Dhaka")
 driver.find_element(By.ID, "end_point").send_keys("Chittagong")
 
 # Upload documents
-driver.find_element(By.ID, "vehicleRegDoc").send_keys(os.path.abspath("TestFiles/vehiclereg.jpg"))
-driver.find_element(By.ID, "insuranceCert").send_keys(os.path.abspath("TestFiles/insurance.jpg"))
+driver.find_element(By.ID, "vehicleRegDoc").send_keys(os.path.abspath(r"C:\Users\TECHNO\Desktop\SOFTWARE-QUALITY-AND-TESTING-A-\Mid Term Assignment Selenium Test Scripts\TestFiles\vehiclereg.jpg"))
+driver.find_element(By.ID, "insuranceCert").send_keys(os.path.abspath(r"C:\Users\TECHNO\Desktop\SOFTWARE-QUALITY-AND-TESTING-A-\Mid Term Assignment Selenium Test Scripts\TestFiles\insurance.jpg"))
 
 # Screenshot after filling form
 driver.save_screenshot("screenshots/permit_filled.png")
